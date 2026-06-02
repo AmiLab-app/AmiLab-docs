@@ -1,0 +1,94 @@
+/* AmiLab Design System — matching the app's "Smart Stylish Clean" palette */
+
+/* Google Fonts are loaded via headTags in docusaurus.config.ts */
+
+:root {
+  /* Indigo primary palette (light mode) */
+  --ifm-color-primary: #4f46e5;
+  --ifm-color-primary-dark: #3f37d7;
+  --ifm-color-primary-darker: #3730cc;
+  --ifm-color-primary-darkest: #2721a7;
+  --ifm-color-primary-light: #6760e9;
+  --ifm-color-primary-lighter: #7169eb;
+  --ifm-color-primary-lightest: #9691f2;
+
+  /* Surfaces */
+  --ifm-background-color: #f5f7fa;
+  --ifm-background-surface-color: #ffffff;
+
+  /* Typography */
+  --ifm-font-family-base: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ifm-heading-font-family: 'Merriweather', Georgia, serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
+
+  /* Borders & radius */
+  --ifm-global-radius: 0.375rem;
+  --ifm-border-color: #d1d5db;
+
+  /* Code */
+  --ifm-code-font-size: 90%;
+  --docusaurus-highlighted-code-line-bg: rgba(79, 70, 229, 0.08);
+
+  /* Links */
+  --ifm-link-color: #4f46e5;
+  --ifm-link-hover-color: #3f37d7;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] {
+  /* Indigo primary palette (dark mode) */
+  --ifm-color-primary: #6366f1;
+  --ifm-color-primary-dark: #4b4ee8;
+  --ifm-color-primary-darker: #4044e2;
+  --ifm-color-primary-darkest: #2b2fc4;
+  --ifm-color-primary-light: #7b7ef4;
+  --ifm-color-primary-lighter: #8688f5;
+  --ifm-color-primary-lightest: #adb0f8;
+
+  /* Surfaces */
+  --ifm-background-color: #0b1220;
+  --ifm-background-surface-color: #111827;
+
+  /* Borders */
+  --ifm-border-color: #2a3345;
+
+  /* Code */
+  --docusaurus-highlighted-code-line-bg: rgba(99, 102, 241, 0.15);
+
+  /* Links */
+  --ifm-link-color: #6366f1;
+  --ifm-link-hover-color: #7b7ef4;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #111827;
+}
+
+/* Headings use display/serif font */
+h1, h2, h3, h4, h5, h6,
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+}
+
+/* Smooth font rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Navbar title styling */
+.navbar__title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: -0.01em;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
