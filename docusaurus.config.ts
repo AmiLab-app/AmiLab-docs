@@ -74,6 +74,11 @@ const config: Config = {
   ],
 
   themeConfig: {
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+      },
+    },
     image: 'img/amiLab-social-card.png',
     colorMode: {
       defaultMode: 'light',
@@ -87,12 +92,10 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'docsSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
+        { type: 'doc', docId: 'tutorials/overview', position: 'left', label: 'Tutorials' },
+        { type: 'doc', docId: 'how-to/overview', position: 'left', label: 'How-to Guides' },
+        { type: 'doc', docId: 'explanations/overview', position: 'left', label: 'Explanations' },
+        { type: 'doc', docId: 'reference/overview', position: 'left', label: 'Reference' },
         {
           type: 'localeDropdown',
           position: 'right',
