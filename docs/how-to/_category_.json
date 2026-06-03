@@ -1,0 +1,8 @@
+{
+  "label": "How-to Guides",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "how-to/overview"
+  }
+}

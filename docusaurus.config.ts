@@ -108,20 +108,17 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentation',
           items: [
-            { label: 'Introduction', to: '/docs/intro' },
-            { label: 'Getting Started', to: '/docs/getting-started' },
-            { label: 'Crochet Notation', to: '/docs/crochet-notation' },
+            { label: 'Tutorials', to: '/docs/tutorials/overview' },
+            { label: 'How-to Guides', to: '/docs/how-to/overview' },
+            { label: 'Explanations', to: '/docs/explanations/overview' },
+            { label: 'Reference', to: '/docs/reference/overview' },
           ],
         },
         {
           title: 'Contribute',
           items: [
-            {
-              label: 'Contributing Guide',
-              href: 'https://github.com/AmiLab-app/AmiLab-docs/blob/main/.github/CONTRIBUTING.md',
-            },
             {
               label: 'Open an Issue',
               href: 'https://github.com/AmiLab-app/AmiLab-docs/issues',

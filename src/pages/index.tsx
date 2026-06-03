@@ -20,7 +20,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/tutorials/overview">
             Get Started
           </Link>
         </div>
@@ -34,7 +34,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={siteConfig.title}
-      description="Design amigurumi patterns with a live 3D preview. Generate round-by-round stitch instructions for spheres, tubes, and custom shapes.">
+      description="AmiLab documentation — tutorials, how-to guides, explanations, and reference for designing amigurumi patterns with a live 3D preview.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

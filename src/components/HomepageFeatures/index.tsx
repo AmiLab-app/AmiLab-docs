@@ -1,57 +1,69 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-type FeatureItem = {
+type CardItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  link: string;
   description: ReactNode;
 };
 
-const FeatureList: FeatureItem[] = [
+const CardList: CardItem[] = [
   {
-    title: 'Design in 3D',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Tutorials',
+    link: '/docs/tutorials/overview',
     description: (
       <>
-        Draw a profile curve and watch your amigurumi shape come to life in the
-        live 3D preview. Adjust proportions until it looks exactly right.
+        Step-by-step guided paths. Start here if you are new to AmiLab —
+        follow a complete workflow from project creation to finished pattern.
       </>
     ),
   },
   {
-    title: 'Instant Pattern Output',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'How-to Guides',
+    link: '/docs/how-to/overview',
     description: (
       <>
-        AmiLab generates round-by-round stitch counts automatically. Copy the
-        pattern and start crocheting straight away — no manual maths required.
+        Task-specific recipes for common workflows. Need to adjust stitches
+        or export a pattern? Find the solution in one page.
       </>
     ),
   },
   {
-    title: '7 Languages',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Explanations',
+    link: '/docs/explanations/overview',
     description: (
       <>
-        Switch between US English, UK English, German, Dutch, Japanese,
-        Portuguese, and Chinese stitch notation with a single click.
+        Deep dives into how AmiLab works under the hood. Understand the
+        algorithms, rendering, and design decisions.
+      </>
+    ),
+  },
+  {
+    title: 'Reference',
+    link: '/docs/reference/overview',
+    description: (
+      <>
+        Quick look-up for UI elements, keyboard shortcuts, file formats, and
+        terminology. Facts at your fingertips.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Card({title, link, description}: CardItem) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
+    <div className={clsx('col col--3')}>
+      <Link to={link} className={styles.cardLink}>
+        <div className={clsx('card', styles.card)}>
+          <div className="card__body">
+            <Heading as="h3">{title}</Heading>
+            <p>{description}</p>
+          </div>
+        </div>
+      </Link>
     </div>
   );
 }
@@ -61,8 +73,8 @@ export default function HomepageFeatures(): ReactNode {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {CardList.map((props, idx) => (
+            <Card key={idx} {...props} />
           ))}
         </div>
       </div>
