@@ -74,10 +74,10 @@ You can also name a pattern without a project — just type a name and click **C
 
 *Gauge* tells AmiLab how many stitches and rows fit in 10 cm of your fabric. It is how the app converts stitch counts into real-world dimensions, so the 3D preview and finished measurements match your yarn and hook.
 
-In the **New project** dialog (or any time you edit the project), set the two **Gauge** values:
+In the **New project** dialog (or any time you edit the project), find the **Gauge** row — two number boxes side by side:
 
-- **Stitches per 10 cm** — for example, `18`.
-- **Rows per 10 cm** — for example, `20`.
+- The first box (marked **st**) is your **stitches per 10 cm** — for example, `18`.
+- The second box (marked **rows/10cm**) is your **rows per 10 cm** — for example, `20`.
 
 Use the gauge from your yarn label, or the numbers from a swatch you crocheted.
 

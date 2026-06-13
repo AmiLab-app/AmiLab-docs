@@ -35,7 +35,7 @@ The opening round is set, and the editor switches to normal editing.
 In normal editing, turn on the **append mode** checkbox in the controls bar so new stitches are added at the end of the piece. Then:
 
 - **+ stitch** — add one stitch of the selected type.
-- **End row** — finish the current round and begin the next.
+- **End row** — finish the current round and begin the next. This one is the **↵ icon button** in the **Row** section of the controls bar (hover it to confirm — its tooltip reads "End current row and start the next").
 
 As you add stitches, the round-count badge and the 3D preview update live.
 
