@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "AmiLab",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "AmiLab-logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorials": {
+    "message": "Tutorials",
+    "description": "Navbar item with label Tutorials"
+  },
+  "item.label.How-to Guides": {
+    "message": "Handleidingen",
+    "description": "Navbar item with label How-to Guides"
+  },
+  "item.label.Explanations": {
+    "message": "Uitleg",
+    "description": "Navbar item with label Explanations"
+  },
+  "item.label.Reference": {
+    "message": "Naslag",
+    "description": "Navbar item with label Reference"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Open app": {
+    "message": "Open de app",
+    "description": "Navbar item with label Open app"
+  }
+}

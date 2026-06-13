@@ -1,0 +1,46 @@
+{
+  "link.title.Documentation": {
+    "message": "Documentatie",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.Contribute": {
+    "message": "Bijdragen",
+    "description": "The title of the footer links column with title=Contribute in the footer"
+  },
+  "link.title.More": {
+    "message": "Meer",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorials": {
+    "message": "Tutorials",
+    "description": "The label of footer link with label=Tutorials linking to /docs/tutorials/overview"
+  },
+  "link.item.label.How-to Guides": {
+    "message": "Handleidingen",
+    "description": "The label of footer link with label=How-to Guides linking to /docs/how-to/overview"
+  },
+  "link.item.label.Explanations": {
+    "message": "Uitleg",
+    "description": "The label of footer link with label=Explanations linking to /docs/explanations/overview"
+  },
+  "link.item.label.Reference": {
+    "message": "Naslag",
+    "description": "The label of footer link with label=Reference linking to /docs/reference/overview"
+  },
+  "link.item.label.Open an Issue": {
+    "message": "Probleem melden",
+    "description": "The label of footer link with label=Open an Issue linking to https://github.com/AmiLab-app/AmiLab-docs/issues"
+  },
+  "link.item.label.Open AmiLab": {
+    "message": "AmiLab openen",
+    "description": "The label of footer link with label=Open AmiLab linking to https://amilab.app/app.html"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/AmiLab-app/AmiLab-docs"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 AmiLab. Ontworpen in de browser, met de hand gemaakt.",
+    "description": "The footer copyright"
+  }
+}
