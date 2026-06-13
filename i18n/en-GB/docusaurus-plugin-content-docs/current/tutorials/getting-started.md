@@ -1,0 +1,180 @@
+---
+sidebar_position: 1
+title: Getting Started
+description: Sign in, create a project, and design your first amigurumi — a hexagonal sphere with custom colours and eyes.
+---
+
+# Getting Started
+
+This tutorial walks you through your first design in AmiLab, from creating an account to a finished shape with colour. By the end you will have a saved pattern: a hexagonal sphere with a custom yarn colour and two coloured "eyes" — the foundation of almost any amigurumi character.
+
+You will learn how to:
+
+- Sign in so your work is saved to your account
+- Create a pattern and group it in a project
+- Set your tension and build a colour palette
+- Generate a hexagonal sphere
+- Recolour the whole piece, then add bands of colour as eyes
+
+**Time to complete:** about 15 minutes.
+
+**Before you start**, you need a Google account and a modern desktop browser. A wider screen makes the split pattern-and-preview layout easier to follow.
+
+---
+
+## Step 1: Sign in
+
+Saving and naming patterns requires an account, so signing in is the first thing you do.
+
+1. Open AmiLab in your browser.
+2. Click the menu button (**☰**) in the top-right corner of the header.
+3. In the **Account** section of the menu, click **Sign in with Google**.
+4. Complete the Google sign-in popup.
+
+After you sign in, your name appears in the **Account** section and the menu closes when you click outside it.
+
+:::note[Why sign in first?]
+
+Without an account you can still explore the editor, but the **New** button stays disabled and your changes are not stored. Signing in unlocks saving, projects, and your personal files.
+
+:::
+
+---
+
+## Step 2: Create a pattern and a project
+
+A *pattern* is a single piece you crochet. A *project* groups related patterns and holds shared settings — your tension and colour palette — so every piece in the same project matches.
+
+1. In the toolbar above the pattern grid, click **New**.
+2. The **Name your pattern** dialog opens. To group this piece in a new project, click **+ New project**.
+3. The **New project** dialog opens. Fill it in:
+   - **Name** — for example, `My First Amigurumi`.
+   - **Tension** — the two numbers describe stitch density (see the next step).
+   - **Colour palette** — the colours you will reach for while designing (covered in Step 4).
+4. Click **Create** to save the project. You return to the **Name your pattern** dialog with your new project already selected.
+5. Type a pattern name, such as `Ball`, then click **Create**.
+
+Your named, empty pattern opens in the editor.
+
+:::note[Your work saves automatically]
+
+The moment you create the pattern, AmiLab saves it to your account — and it keeps saving every change from here on. Watch the save indicator in the toolbar: it reads **Unsaved** while you edit and **Saved** once your changes are stored. You can close the tab at any time and reopen the pattern later from the **Files** dialog.
+
+:::
+
+:::tip[Skip the project]
+
+You can also name a pattern without a project — just type a name and click **Create**. Patterns with no project work the same way, but you set their tension and colour per pattern instead of sharing them across a project.
+
+:::
+
+---
+
+## Step 3: Set your tension
+
+*Tension* (also called gauge) tells AmiLab how many stitches and rows fit in 10 cm of your fabric. It is how the app converts stitch counts into real-world dimensions, so the 3D preview and finished measurements match your yarn and hook.
+
+In the **New project** dialog (or any time you edit the project), find the **Tension** row — two number boxes side by side:
+
+- The first box (marked **sts**) is your **stitches per 10 cm** — for example, `18`.
+- The second box (marked **rows/10 cm**) is your **rows per 10 cm** — for example, `20`.
+
+Use the tension from your yarn label, or the numbers from a tension square you crocheted.
+
+:::note[Changing tension later]
+
+For a pattern inside a project, tension lives with the project. Click the **Tension** chip above the pattern grid to reopen the project settings and adjust it. For a pattern with no project, the same chip opens a simple **Tension** dialog instead. Changing tension rescales the whole piece.
+
+:::
+
+---
+
+## Step 4: Add colours to the palette
+
+A palette is a small set of colours you save so you can apply them with one click later — instead of hunting through a colour picker each time.
+
+In the **New project** dialog, under **Colour palette**:
+
+1. Click **Add**. A swatch appears with a random colour.
+2. Click the swatch to open the colour picker and choose a colour.
+3. Repeat to add a few colours. For this tutorial, add a **body colour** and a **darker contrast colour** for the eyes.
+
+To remove a swatch, click the trash icon next to it.
+
+When your palette is ready, click **Create** (or **Save**, if you are editing an existing project).
+
+---
+
+## Step 5: Generate a hexagonal sphere
+
+Rather than placing every stitch by hand, you can *generate* a shape: AmiLab builds a complete, ready-to-edit stitch pattern from a few parameters. The hexagonal sphere uses a hexagonal cross-section with staggered stitches, which gives a smooth, even ball.
+
+1. In the toolbar, click **Shapes**.
+2. In the **Insert shape** dialog, open the **Shape** dropdown and choose **Hexagonal sphere**.
+3. Set **Size** — this is the sphere's radius in centimetres. Try `4`.
+4. Leave **Height** empty to let the app size the sphere automatically.
+5. Click **Generate shape**.
+
+The pattern grid fills with rounds of stitches, and the 3D preview on the right shows your sphere. Drag in the preview to rotate it.
+
+:::note[Replacing existing work]
+
+Because your pattern was empty, the sphere appears immediately. If you generate a shape into a pattern that already has stitches, AmiLab asks you to confirm first, since generating replaces the current pattern and clears the undo history.
+
+:::
+
+---
+
+## Step 6: Switch to Realistic view and pick a body colour
+
+The *default colour* is the yarn colour applied to every stitch you have not coloured individually. Setting it recolours the whole sphere at once — your base body colour.
+
+Before you choose colours, switch the preview to a realistic rendering so you can judge them as they will actually look in yarn.
+
+1. At the bottom of the 3D preview, click **Realistic**. The preview changes from the schematic stitch diagram to a yarn-like rendering of your sphere. The same button now reads **Schematic** — click it whenever you want the structural view back.
+2. Above the pattern grid, click the **Default** chip (it shows a small colour swatch).
+3. In the **Default yarn colour** dialog, either:
+   - Click a swatch from your **Project palette** to apply it instantly, or
+   - Click the large swatch to open the colour picker and choose any colour.
+4. Click **Done**.
+
+The entire sphere updates to your chosen body colour in the preview.
+
+:::tip[Schematic vs. Realistic]
+
+**Schematic** view draws each stitch as a symbol — best for following structure and clicking individual stitches. **Realistic** view renders the piece in yarn-like colour and texture — best for judging how your colours look together. Switching modes changes only the preview, never your pattern, so toggle freely.
+
+:::
+
+---
+
+## Step 7: Add bands of colour as eyes
+
+Eyes are just a few stitches in a contrasting colour. You colour individual stitches, and a small cluster of them reads as an eye. Colouring two clusters a short distance apart gives your amigurumi its face.
+
+1. In the pattern grid, scroll to a round near the middle of the sphere — a wider round works well for a face.
+2. Click a stitch to select it. The stitch controls bar at the bottom updates to show its options.
+3. Click the **yarn colour** button (the coloured square) in the controls bar.
+4. In the dialog, click your **darker contrast colour** from the **Project palette**, then click **Done**.
+5. Click the next stitch along the round and repeat, colouring two or three neighbouring stitches to form one eye.
+6. Skip a few stitches, then colour another small cluster the same way for the second eye.
+
+Watch the preview as you go — in **Realistic** view each coloured stitch appears as yarn, so you can see the eyes take shape and adjust their spacing. If a stitch is hard to find in the grid, the **Schematic** view makes individual stitches easier to click.
+
+:::tip[Undo and reset]
+
+Use the **Undo** and **Redo** buttons in the toolbar to step back through changes. To clear a single stitch's colour and return it to the default, select the stitch, open its yarn-colour dialog, and click **Clear stitch colour**.
+
+:::
+
+---
+
+## What you built
+
+You now have a saved, named pattern inside a project: a hexagonal sphere in your body colour with two coloured eyes, and a reusable palette and tension that any future piece in the same project will share.
+
+## Next steps
+
+- Browse the [How-to Guides](../how-to/overview.md) for focused recipes, such as combining parts or exporting a written pattern.
+- Read the [Explanations](../explanations/overview.md) to understand tension, stitch types, and how shapes are generated.
+- Keep the [Reference](../reference/overview.md) handy for UI controls and terminology.
