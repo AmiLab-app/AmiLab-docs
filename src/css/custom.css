@@ -1,94 +1,724 @@
-/* AmiLab Design System — matching the app's "Smart Stylish Clean" palette */
-
-/* Google Fonts are loaded via headTags in docusaurus.config.ts */
+/* AmiLab "Smart Stylish Clean" design system, adapted for Docusaurus. */
 
 :root {
-  /* Indigo primary palette (light mode) */
+  --amilab-background: #f5f7fa;
+  --amilab-foreground: #111827;
+  --amilab-card: #ffffff;
+  --amilab-secondary: #eef2ff;
+  --amilab-muted: #eef2ff;
+  --amilab-muted-foreground: #6b7280;
+  --amilab-accent: #e5e7eb;
+  --amilab-border: #d1d5db;
+  --amilab-highlight: #e8788f;
+  --amilab-highlight-foreground: #0f172a;
+  --amilab-cta: #0f172a;
+  --amilab-cta-foreground: #ffffff;
+  --amilab-cta-hover: #1e293b;
+  --amilab-success: #15803d;
+  --amilab-success-muted: #dcfce7;
+  --amilab-info: #0369a1;
+  --amilab-info-muted: #e0f2fe;
+  --amilab-warm: #b45309;
+  --amilab-warm-muted: #ffedd5;
+  --amilab-destructive: #be123c;
+
   --ifm-color-primary: #4f46e5;
-  --ifm-color-primary-dark: #3f37d7;
-  --ifm-color-primary-darker: #3730cc;
-  --ifm-color-primary-darkest: #2721a7;
-  --ifm-color-primary-light: #6760e9;
-  --ifm-color-primary-lighter: #7169eb;
-  --ifm-color-primary-lightest: #9691f2;
+  --ifm-color-primary-dark: #4338ca;
+  --ifm-color-primary-darker: #3730a3;
+  --ifm-color-primary-darkest: #312e81;
+  --ifm-color-primary-light: #6366f1;
+  --ifm-color-primary-lighter: #818cf8;
+  --ifm-color-primary-lightest: #c7d2fe;
 
-  /* Surfaces */
-  --ifm-background-color: #f5f7fa;
-  --ifm-background-surface-color: #ffffff;
+  --ifm-background-color: var(--amilab-background);
+  --ifm-background-surface-color: var(--amilab-card);
+  --ifm-font-color-base: var(--amilab-foreground);
+  --ifm-font-color-secondary: var(--amilab-muted-foreground);
+  --ifm-heading-color: var(--amilab-foreground);
+  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-link-hover-color: var(--ifm-color-primary-dark);
+  --ifm-menu-color-active: var(--amilab-foreground);
+  --ifm-toc-border-color: var(--amilab-border);
+  --ifm-hr-border-color: var(--amilab-border);
+  --ifm-table-border-color: var(--amilab-border);
+  --ifm-card-background-color: var(--amilab-card);
+  --ifm-navbar-background-color: rgba(245, 247, 250, 0.88);
+  --ifm-footer-background-color: #0f172a;
 
-  /* Typography */
   --ifm-font-family-base: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --ifm-heading-font-family: 'Merriweather', Georgia, serif;
   --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.7;
+  --ifm-heading-font-weight: 700;
+  --ifm-heading-line-height: 1.18;
 
-  /* Borders & radius */
   --ifm-global-radius: 0.375rem;
-  --ifm-border-color: #d1d5db;
-
-  /* Code */
-  --ifm-code-font-size: 90%;
-  --docusaurus-highlighted-code-line-bg: rgba(79, 70, 229, 0.08);
-
-  /* Links */
-  --ifm-link-color: #4f46e5;
-  --ifm-link-hover-color: #3f37d7;
-
-  /* Navbar */
-  --ifm-navbar-background-color: #ffffff;
-  --ifm-navbar-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  --ifm-button-border-radius: 9999px;
+  --ifm-card-border-radius: 0.875rem;
+  --ifm-code-border-radius: 0.25rem;
+  --ifm-alert-border-radius: 0.625rem;
+  --ifm-global-shadow-lw: 0 1px 0 rgba(209, 213, 219, 0.7), 0 2px 8px rgba(17, 24, 39, 0.05);
+  --ifm-global-shadow-md: 0 1px 2px rgba(17, 24, 39, 0.08), 0 10px 28px rgba(17, 24, 39, 0.11);
+  --ifm-navbar-shadow: 0 1px 0 rgba(209, 213, 219, 0.7);
+  --ifm-code-font-size: 88%;
+  --docusaurus-highlighted-code-line-bg: rgba(232, 120, 143, 0.12);
 }
 
 [data-theme='dark'] {
-  /* Indigo primary palette (dark mode) */
-  --ifm-color-primary: #6366f1;
-  --ifm-color-primary-dark: #4b4ee8;
-  --ifm-color-primary-darker: #4044e2;
-  --ifm-color-primary-darkest: #2b2fc4;
-  --ifm-color-primary-light: #7b7ef4;
-  --ifm-color-primary-lighter: #8688f5;
-  --ifm-color-primary-lightest: #adb0f8;
+  --amilab-background: #0b1220;
+  --amilab-foreground: #fafaf9;
+  --amilab-card: #111827;
+  --amilab-secondary: #111827;
+  --amilab-muted: #1f2937;
+  --amilab-muted-foreground: #a8a29e;
+  --amilab-accent: #2a3345;
+  --amilab-border: #2a3345;
+  --amilab-highlight: #f194a8;
+  --amilab-highlight-foreground: #0f172a;
+  --amilab-cta: #fafafa;
+  --amilab-cta-foreground: #0f172a;
+  --amilab-cta-hover: #e5e7eb;
+  --amilab-success: #4ade80;
+  --amilab-success-muted: #052e16;
+  --amilab-info: #38bdf8;
+  --amilab-info-muted: #0c4a6e;
+  --amilab-warm: #fb923c;
+  --amilab-warm-muted: #431407;
+  --amilab-destructive: #f43f5e;
 
-  /* Surfaces */
-  --ifm-background-color: #0b1220;
-  --ifm-background-surface-color: #111827;
-
-  /* Borders */
-  --ifm-border-color: #2a3345;
-
-  /* Code */
-  --docusaurus-highlighted-code-line-bg: rgba(99, 102, 241, 0.15);
-
-  /* Links */
-  --ifm-link-color: #6366f1;
-  --ifm-link-hover-color: #7b7ef4;
-
-  /* Navbar */
-  --ifm-navbar-background-color: #111827;
+  --ifm-color-primary: #818cf8;
+  --ifm-color-primary-dark: #6366f1;
+  --ifm-color-primary-darker: #4f46e5;
+  --ifm-color-primary-darkest: #4338ca;
+  --ifm-color-primary-light: #a5b4fc;
+  --ifm-color-primary-lighter: #c7d2fe;
+  --ifm-color-primary-lightest: #e0e7ff;
+  --ifm-navbar-background-color: rgba(11, 18, 32, 0.88);
+  --ifm-footer-background-color: #080d18;
+  --ifm-global-shadow-lw: 0 1px 0 rgba(42, 51, 69, 0.9), 0 2px 8px rgba(0, 0, 0, 0.18);
+  --ifm-global-shadow-md: 0 1px 2px rgba(0, 0, 0, 0.22), 0 12px 32px rgba(0, 0, 0, 0.3);
+  --docusaurus-highlighted-code-line-bg: rgba(241, 148, 168, 0.13);
 }
 
-/* Headings use display/serif font */
-h1, h2, h3, h4, h5, h6,
-.navbar__title {
-  font-family: var(--ifm-heading-font-family);
+* {
+  border-color: var(--amilab-border);
 }
 
-/* Smooth font rendering */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  background: var(--amilab-background);
+  color: var(--amilab-foreground);
+  font-feature-settings: 'rlig' 1, 'calt' 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Navbar title styling */
-.navbar__title {
-  font-weight: 700;
-  font-size: 1.1rem;
-  letter-spacing: -0.01em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.015em;
 }
 
-/* Reduce motion for accessibility */
+h1 {
+  letter-spacing: -0.025em;
+}
+
+em {
+  color: var(--amilab-highlight);
+}
+
+a {
+  font-weight: 500;
+  text-underline-offset: 0.16em;
+  transition: color 150ms ease;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--amilab-highlight) 45%, transparent);
+  color: var(--amilab-foreground);
+}
+
+/* Navbar */
+.navbar {
+  min-height: 4rem;
+  padding: 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--amilab-border) 70%, transparent);
+  background: var(--ifm-navbar-background-color);
+  backdrop-filter: saturate(1.4) blur(10px);
+}
+
+.navbar__inner {
+  width: min(100%, 1180px);
+  margin: 0 auto;
+  padding: 0.65rem 1.5rem;
+}
+
+.navbar__brand {
+  gap: 0.6rem;
+  margin-right: 1rem;
+  color: var(--amilab-foreground);
+}
+
+.navbar__brand:hover {
+  color: var(--amilab-foreground);
+  opacity: 0.86;
+}
+
+.navbar__logo {
+  width: 1.45rem;
+  height: 1.45rem;
+  margin-right: 0;
+}
+
+.navbar__logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.navbar__link {
+  margin: 0 0.05rem;
+  border-radius: 999px;
+  color: var(--amilab-foreground);
+  font-size: 0.86rem;
+  font-weight: 600;
+  padding: 0.5rem 0.72rem;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.navbar__link:hover {
+  background: color-mix(in srgb, var(--amilab-accent) 70%, transparent);
+  color: var(--amilab-foreground);
+  text-decoration: none;
+}
+
+.navbar__link--active {
+  background: color-mix(in srgb, var(--amilab-highlight) 18%, transparent);
+  color: var(--amilab-highlight);
+}
+
+.navbar__app-button {
+  margin-left: 0.35rem;
+  border: 1px solid var(--amilab-cta);
+  background: var(--amilab-cta);
+  box-shadow: 0 1px 2px rgba(17, 24, 39, 0.18), 0 6px 16px rgba(17, 24, 39, 0.14);
+  color: var(--amilab-cta-foreground);
+  padding-inline: 1rem;
+}
+
+.navbar__app-button:hover {
+  border-color: var(--amilab-cta-hover);
+  background: var(--amilab-cta-hover);
+  color: var(--amilab-cta-foreground);
+}
+
+.navbar-sidebar {
+  background: var(--amilab-card);
+}
+
+.navbar-sidebar__brand {
+  border-bottom: 1px solid var(--amilab-border);
+  background: var(--amilab-accent);
+}
+
+.navbar-sidebar__items {
+  padding: 0.75rem;
+}
+
+.dropdown__menu {
+  overflow: hidden;
+  border: 1px solid var(--amilab-border);
+  border-radius: 0.75rem;
+  background: var(--amilab-card);
+  box-shadow: var(--ifm-global-shadow-md);
+  padding: 0.4rem;
+}
+
+.dropdown__link {
+  border-radius: 999px;
+  color: var(--amilab-foreground);
+  font-size: 0.86rem;
+}
+
+.dropdown__link:hover,
+.dropdown__link--active {
+  background: var(--amilab-accent);
+  color: var(--amilab-foreground);
+}
+
+.colorModeToggle_DEke button,
+button.clean-btn {
+  border-radius: 999px;
+}
+
+/* Shared app-style controls */
+.button {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  font-family: var(--ifm-font-family-base);
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    transform 80ms ease,
+    box-shadow 120ms ease,
+    background-color 150ms ease,
+    border-color 150ms ease,
+    color 150ms ease;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+.button--primary {
+  border-color: var(--amilab-cta);
+  background: var(--amilab-cta);
+  box-shadow: 0 1px 2px rgba(17, 24, 39, 0.18), 0 6px 16px rgba(17, 24, 39, 0.14);
+  color: var(--amilab-cta-foreground);
+}
+
+.button--primary:hover {
+  border-color: var(--amilab-cta-hover);
+  background: var(--amilab-cta-hover);
+  color: var(--amilab-cta-foreground);
+}
+
+.button--secondary,
+.button--outline {
+  border-color: var(--amilab-border);
+  background: var(--amilab-card);
+  color: var(--amilab-foreground);
+}
+
+.button--secondary:hover,
+.button--outline:hover {
+  border-color: var(--amilab-border);
+  background: var(--amilab-accent);
+  color: var(--amilab-foreground);
+}
+
+/* Documentation shell */
+.main-wrapper {
+  background:
+    radial-gradient(circle at 92% 8%, color-mix(in srgb, var(--amilab-highlight) 7%, transparent), transparent 24rem),
+    var(--amilab-background);
+}
+
+.docs-wrapper {
+  --doc-sidebar-width: 19rem;
+}
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--amilab-border) !important;
+  background: color-mix(in srgb, var(--amilab-card) 72%, transparent);
+}
+
+.theme-doc-sidebar-menu {
+  padding: 1rem 0.7rem 2rem;
+}
+
+.menu {
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.menu__list-item:not(:first-child) {
+  margin-top: 0.2rem;
+}
+
+.menu__link,
+.menu__caret {
+  border-radius: 999px;
+}
+
+.menu__link {
+  color: var(--amilab-muted-foreground);
+  line-height: 1.35;
+  padding: 0.52rem 0.75rem;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.menu__link:hover {
+  background: var(--amilab-accent);
+  color: var(--amilab-foreground);
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: var(--amilab-highlight);
+  color: var(--amilab-highlight-foreground);
+  font-weight: 700;
+}
+
+.menu__list-item-collapsible > .menu__link {
+  color: var(--amilab-foreground);
+  font-family: var(--ifm-heading-font-family);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.menu__caret:hover {
+  background: var(--amilab-accent);
+}
+
+.theme-doc-sidebar-item-category-level-1 + .theme-doc-sidebar-item-category-level-1,
+.theme-doc-sidebar-item-link-level-1 + .theme-doc-sidebar-item-category-level-1 {
+  margin-top: 0.7rem;
+}
+
+.theme-doc-markdown {
+  padding: clamp(1.4rem, 3vw, 2.5rem);
+  border: 1px solid var(--amilab-border);
+  border-radius: 0.875rem;
+  background: var(--amilab-card);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.theme-doc-markdown > h1:first-child {
+  margin-bottom: 1.25rem;
+  font-size: clamp(2rem, 4vw, 2.85rem);
+}
+
+.theme-doc-markdown > h2 {
+  margin-top: 2.5rem;
+  padding-top: 0.4rem;
+  font-size: clamp(1.45rem, 2.6vw, 1.85rem);
+}
+
+.theme-doc-markdown > h3 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.theme-doc-markdown p,
+.theme-doc-markdown li {
+  color: color-mix(in srgb, var(--amilab-foreground) 88%, var(--amilab-muted-foreground));
+}
+
+.theme-doc-markdown strong {
+  color: var(--amilab-foreground);
+}
+
+.breadcrumbs {
+  margin-bottom: 1rem;
+}
+
+.breadcrumbs__item {
+  font-size: 0.75rem;
+}
+
+.breadcrumbs__link {
+  border-radius: 999px;
+  color: var(--amilab-muted-foreground);
+  font-weight: 600;
+  padding: 0.3rem 0.55rem;
+}
+
+.breadcrumbs__link:hover {
+  background: var(--amilab-accent);
+  color: var(--amilab-foreground);
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  background: color-mix(in srgb, var(--amilab-highlight) 18%, transparent);
+  color: var(--amilab-highlight);
+}
+
+.table-of-contents {
+  border-left: 1px solid var(--amilab-border);
+  font-size: 0.78rem;
+}
+
+.table-of-contents__link {
+  color: var(--amilab-muted-foreground);
+  font-weight: 500;
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--amilab-highlight);
+  text-decoration: none;
+}
+
+.theme-doc-toc-mobile {
+  overflow: hidden;
+  border: 1px solid var(--amilab-border);
+  border-radius: 0.625rem;
+  background: var(--amilab-card);
+}
+
+.theme-doc-toc-mobile button {
+  background: var(--amilab-accent);
+  color: var(--amilab-foreground);
+}
+
+.theme-doc-footer {
+  margin-top: 1.25rem;
+}
+
+.theme-edit-this-page {
+  color: var(--amilab-muted-foreground);
+  font-size: 0.8rem;
+}
+
+.pagination-nav {
+  gap: 0.8rem;
+}
+
+.pagination-nav__link {
+  border: 1px solid var(--amilab-border);
+  border-radius: 0.75rem;
+  background: var(--amilab-card);
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: transform 120ms ease, border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.pagination-nav__link:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--amilab-highlight) 60%, var(--amilab-border));
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+.pagination-nav__sublabel {
+  color: var(--amilab-highlight);
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pagination-nav__label {
+  color: var(--amilab-foreground);
+  font-family: var(--ifm-heading-font-family);
+  font-size: 0.94rem;
+}
+
+/* Rich content components */
+.card {
+  border: 1px solid var(--amilab-border);
+  background: var(--amilab-card);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.alert {
+  border: 1px solid var(--amilab-border);
+  border-left-width: 4px;
+  background: var(--amilab-card);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.alert--info,
+.alert--secondary {
+  --ifm-alert-border-color: var(--amilab-info);
+  --ifm-alert-background-color: color-mix(in srgb, var(--amilab-info-muted) 50%, var(--amilab-card));
+}
+
+.alert--success {
+  --ifm-alert-border-color: var(--amilab-success);
+  --ifm-alert-background-color: color-mix(in srgb, var(--amilab-success-muted) 50%, var(--amilab-card));
+}
+
+.alert--warning {
+  --ifm-alert-border-color: var(--amilab-warm);
+  --ifm-alert-background-color: color-mix(in srgb, var(--amilab-warm-muted) 50%, var(--amilab-card));
+}
+
+.alert--danger {
+  --ifm-alert-border-color: var(--amilab-destructive);
+  --ifm-alert-background-color: color-mix(in srgb, var(--amilab-destructive) 9%, var(--amilab-card));
+}
+
+.alert__heading {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 0.95rem;
+}
+
+blockquote {
+  margin: 1.5rem 0;
+  border-left: 4px solid var(--amilab-highlight);
+  border-radius: 0 0.625rem 0.625rem 0;
+  background: color-mix(in srgb, var(--amilab-secondary) 60%, var(--amilab-card));
+  color: var(--amilab-foreground);
+  padding: 1rem 1.2rem;
+}
+
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+code {
+  border: 1px solid color-mix(in srgb, var(--amilab-highlight) 22%, var(--amilab-border));
+  background: color-mix(in srgb, var(--amilab-highlight) 9%, var(--amilab-secondary));
+  color: color-mix(in srgb, var(--amilab-highlight) 75%, var(--amilab-foreground));
+  font-weight: 500;
+  padding: 0.12rem 0.32rem;
+}
+
+pre code,
+.prism-code code {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.theme-code-block {
+  overflow: hidden;
+  border: 1px solid var(--amilab-border);
+  border-radius: 0.625rem;
+  background: #0f172a;
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+[data-theme='dark'] .theme-code-block {
+  background: #080d18;
+}
+
+.theme-code-block button {
+  border-radius: 999px;
+}
+
+kbd {
+  border: 1px solid var(--amilab-border);
+  border-bottom-width: 2px;
+  border-radius: 0.3rem;
+  background: var(--amilab-card);
+  box-shadow: none;
+  color: var(--amilab-foreground);
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.78em;
+}
+
+.table-wrapper {
+  margin: 1.5rem 0;
+  overflow: hidden;
+  border: 1px solid var(--amilab-border);
+  border-radius: 0.75rem;
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+table {
+  display: table;
+  width: 100%;
+  margin: 0;
+  background: var(--amilab-card);
+  font-size: 0.9rem;
+}
+
+table thead {
+  background: var(--amilab-accent);
+}
+
+table th {
+  color: var(--amilab-foreground);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+}
+
+table th,
+table td {
+  border-color: var(--amilab-border);
+  padding: 0.75rem 0.9rem;
+}
+
+table tr:nth-child(2n) {
+  background: color-mix(in srgb, var(--amilab-secondary) 36%, var(--amilab-card));
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+/* Footer */
+.footer--dark {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    radial-gradient(120% 150% at 50% 0%, #1e293b, var(--ifm-footer-background-color) 58%);
+}
+
+.footer__title {
+  color: #fff;
+  font-family: var(--ifm-heading-font-family);
+  font-size: 0.95rem;
+}
+
+.footer__link-item {
+  color: #cbd5e1;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.footer__link-item:hover {
+  color: var(--amilab-highlight);
+}
+
+.footer__copyright {
+  color: #94a3b8;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 996px) {
+  .navbar__inner {
+    padding-inline: 1rem;
+  }
+
+  .theme-doc-markdown {
+    padding: clamp(1.15rem, 4vw, 1.75rem);
+  }
+}
+
+@media (max-width: 576px) {
+  .theme-doc-markdown {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .pagination-nav {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
 }

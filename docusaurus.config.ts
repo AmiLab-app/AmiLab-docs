@@ -2,10 +2,24 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+const logoSvg = `
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <defs>
+      <radialGradient id="mark" cx="30%" cy="30%" r="90%">
+        <stop offset="0%" stop-color="#e8788f"/>
+        <stop offset="100%" stop-color="#4f46e5"/>
+      </radialGradient>
+    </defs>
+    <rect width="32" height="32" rx="10" fill="url(#mark)"/>
+    <rect x=".5" y=".5" width="31" height="31" rx="9.5" fill="none" stroke="#fff" stroke-opacity=".25"/>
+  </svg>
+`;
+const logoDataUri = `data:image/svg+xml,${encodeURIComponent(logoSvg)}`;
+
 const config: Config = {
   title: 'AmiLab',
   tagline: 'Design amigurumi patterns with a live 3D preview',
-  favicon: 'img/favicon.ico',
+  favicon: logoDataUri,
 
   future: {
     v4: true,
@@ -50,7 +64,7 @@ const config: Config = {
       tagName: 'link',
       attributes: {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Merriweather:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap',
       },
     },
   ],
@@ -87,13 +101,33 @@ const config: Config = {
       title: 'AmiLab',
       logo: {
         alt: 'AmiLab Logo',
-        src: 'img/logo.svg',
+        src: logoDataUri,
       },
       items: [
-        { type: 'doc', docId: 'tutorials/overview', position: 'left', label: 'Tutorials' },
-        { type: 'doc', docId: 'how-to/overview', position: 'left', label: 'How-to Guides' },
-        { type: 'doc', docId: 'explanations/overview', position: 'left', label: 'Explanations' },
-        { type: 'doc', docId: 'reference/overview', position: 'left', label: 'Reference' },
+        {
+          to: '/docs/tutorials/overview',
+          activeBaseRegex: '/docs/tutorials/',
+          position: 'left',
+          label: 'Tutorials',
+        },
+        {
+          to: '/docs/how-to/overview',
+          activeBaseRegex: '/docs/how-to/',
+          position: 'left',
+          label: 'How-to Guides',
+        },
+        {
+          to: '/docs/explanations/overview',
+          activeBaseRegex: '/docs/explanations/',
+          position: 'left',
+          label: 'Explanations',
+        },
+        {
+          to: '/docs/reference/overview',
+          activeBaseRegex: '/docs/reference/',
+          position: 'left',
+          label: 'Reference',
+        },
         {
           type: 'localeDropdown',
           position: 'right',
@@ -102,6 +136,12 @@ const config: Config = {
           href: 'https://github.com/AmiLab-app/AmiLab-docs',
           label: 'GitHub',
           position: 'right',
+        },
+        {
+          href: 'https://amilab.app/app.html',
+          label: 'Open app',
+          position: 'right',
+          className: 'navbar__app-button',
         },
       ],
     },
@@ -130,13 +170,17 @@ const config: Config = {
           title: 'More',
           items: [
             {
+              label: 'Open AmiLab',
+              href: 'https://amilab.app/app.html',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/AmiLab-app/AmiLab-docs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} AmiLab. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} AmiLab. Designed in the browser, made by hand.`,
     },
     prism: {
       theme: prismThemes.github,

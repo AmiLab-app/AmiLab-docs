@@ -1,23 +1,198 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
   position: relative;
   overflow: hidden;
+  padding: clamp(2.75rem, 5vw, 5rem) 0;
+  background:
+    radial-gradient(circle at 78% 34%, rgba(232, 120, 143, 0.1), transparent 24rem),
+    var(--ifm-background-color);
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroInner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(20rem, 0.95fr);
+  align-items: center;
+  gap: clamp(2.5rem, 6vw, 5rem);
+}
+
+.heroCopy {
+  position: relative;
+  z-index: 1;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  color: var(--amilab-muted-foreground);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.eyebrowDot {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--amilab-highlight);
+}
+
+.heroTitle {
+  max-width: 42rem;
+  margin: 1.1rem 0 0;
+  color: var(--ifm-heading-color);
+  font-size: clamp(2.8rem, 5vw, 4rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.04;
+}
+
+.heroTitle em {
+  color: var(--amilab-highlight);
+  font-style: italic;
+}
+
+.heroSubtitle {
+  max-width: 38rem;
+  margin: 1.5rem 0 0;
+  color: var(--amilab-muted-foreground);
+  font-size: clamp(1rem, 1.6vw, 1.08rem);
+  line-height: 1.7;
 }
 
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.8rem;
+}
+
+.primaryButton {
+  border-color: var(--amilab-cta);
+  background: var(--amilab-cta);
+  color: var(--amilab-cta-foreground);
+}
+
+.primaryButton:hover {
+  border-color: var(--amilab-cta-hover);
+  background: var(--amilab-cta-hover);
+  color: var(--amilab-cta-foreground);
+}
+
+.secondaryButton {
+  border-color: var(--amilab-border);
+  background: var(--amilab-card);
+  color: var(--ifm-font-color-base);
+}
+
+.secondaryButton:hover {
+  border-color: var(--amilab-border);
+  background: var(--amilab-accent);
+  color: var(--ifm-font-color-base);
+}
+
+.heroNote {
+  margin: 1rem 0 0;
+  color: var(--amilab-muted-foreground);
+  font-size: 0.8rem;
+}
+
+.heroVisual {
+  position: relative;
+}
+
+.previewCard {
+  margin: 0;
+  overflow: hidden;
+  transform: rotate(-1.4deg);
+  border: 1px solid var(--amilab-border);
+  border-radius: 1rem;
+  background: var(--amilab-card);
+  box-shadow:
+    0 2px 4px rgba(17, 24, 39, 0.06),
+    0 24px 56px rgba(17, 24, 39, 0.16);
+}
+
+.previewBar {
+  display: flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0.65rem 0.9rem;
+  border-bottom: 1px solid var(--amilab-border);
+  background: var(--amilab-secondary);
+}
+
+.previewTag {
+  border-radius: 0.25rem;
+  background: var(--amilab-highlight);
+  color: #fff;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  padding: 0.3rem 0.55rem;
+  text-transform: uppercase;
+}
+
+.previewImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 7;
+  object-fit: cover;
+  background: var(--amilab-secondary);
+}
+
+.previewBadge {
+  position: absolute;
+  right: 8%;
+  bottom: -1rem;
+  transform: rotate(-2.5deg);
+  border-radius: 999px;
+  background: var(--amilab-cta);
+  box-shadow: 0 6px 18px rgba(17, 24, 39, 0.28);
+  color: var(--amilab-cta-foreground);
+  font-family: var(--ifm-heading-font-family);
+  font-size: 0.78rem;
+  font-style: italic;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
+.previewBadge strong {
+  font-style: normal;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 0 4.5rem;
+  }
+
+  .heroInner {
+    grid-template-columns: 1fr;
+  }
+
+  .heroVisual {
+    grid-row: 1;
+    width: min(100%, 34rem);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .heroTitle {
+    font-size: clamp(2.4rem, 13vw, 3.3rem);
+  }
+
+  .buttons {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .buttons :global(.button) {
+    justify-content: center;
+  }
 }

@@ -6,6 +6,7 @@ import styles from './styles.module.css';
 
 type CardItem = {
   title: string;
+  kicker: string;
   link: string;
   description: ReactNode;
 };
@@ -13,6 +14,7 @@ type CardItem = {
 const CardList: CardItem[] = [
   {
     title: 'Tutorials',
+    kicker: '01 / Learn',
     link: '/docs/tutorials/overview',
     description: (
       <>
@@ -23,6 +25,7 @@ const CardList: CardItem[] = [
   },
   {
     title: 'How-to Guides',
+    kicker: '02 / Solve',
     link: '/docs/how-to/overview',
     description: (
       <>
@@ -33,6 +36,7 @@ const CardList: CardItem[] = [
   },
   {
     title: 'Explanations',
+    kicker: '03 / Understand',
     link: '/docs/explanations/overview',
     description: (
       <>
@@ -43,6 +47,7 @@ const CardList: CardItem[] = [
   },
   {
     title: 'Reference',
+    kicker: '04 / Look up',
     link: '/docs/reference/overview',
     description: (
       <>
@@ -53,14 +58,20 @@ const CardList: CardItem[] = [
   },
 ];
 
-function Card({title, link, description}: CardItem) {
+function Card({title, kicker, link, description}: CardItem) {
   return (
     <div className={clsx('col col--3')}>
       <Link to={link} className={styles.cardLink}>
         <div className={clsx('card', styles.card)}>
           <div className="card__body">
-            <Heading as="h3">{title}</Heading>
+            <span className={styles.cardKicker}>{kicker}</span>
+            <Heading as="h3" className={styles.cardTitle}>
+              {title}
+            </Heading>
             <p>{description}</p>
+            <span className={styles.cardArrow} aria-hidden="true">
+              →
+            </span>
           </div>
         </div>
       </Link>
@@ -72,6 +83,17 @@ export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className={styles.sectionIntro}>
+          <p className={styles.eyebrow}>
+            <span className={styles.eyebrowDot} aria-hidden="true" />
+            Find your path
+          </p>
+          <Heading as="h2">Choose what you need right now.</Heading>
+          <p>
+            Learn a complete workflow, solve one task, understand a concept,
+            or check a precise detail.
+          </p>
+        </div>
         <div className="row">
           {CardList.map((props, idx) => (
             <Card key={idx} {...props} />
