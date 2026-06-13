@@ -31,8 +31,6 @@ Translations live under `i18n/<locale>/docusaurus-plugin-content-docs/current/`.
 | `de` | German (Deutsch) |
 | `nl` | Dutch (Nederlands) |
 | `ja` | Japanese (日本語) |
-| `pt` | Portuguese (Português) |
-| `zh-Hans` | Chinese Simplified (中文) |
 
 ### Translating a doc page
 

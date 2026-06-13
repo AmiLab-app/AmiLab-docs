@@ -27,15 +27,13 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'en-GB', 'de', 'nl', 'ja', 'pt', 'zh-Hans'],
+    locales: ['en', 'en-GB', 'de', 'nl', 'ja'],
     localeConfigs: {
       en: { label: 'English (US)', htmlLang: 'en-US' },
       'en-GB': { label: 'English (UK)', htmlLang: 'en-GB' },
       de: { label: 'Deutsch', htmlLang: 'de' },
       nl: { label: 'Nederlands', htmlLang: 'nl' },
       ja: { label: '日本語', htmlLang: 'ja' },
-      pt: { label: 'Português', htmlLang: 'pt' },
-      'zh-Hans': { label: '中文', htmlLang: 'zh-Hans' },
     },
   },
 
