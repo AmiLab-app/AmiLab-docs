@@ -156,6 +156,9 @@ a {
   padding: 0;
   border-bottom: 1px solid color-mix(in srgb, var(--amilab-border) 70%, transparent);
   background: var(--ifm-navbar-background-color);
+}
+
+.navbar:not(.navbar-sidebar--show) {
   backdrop-filter: saturate(1.4) blur(10px);
 }
 
