@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "次期版",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Tutorials": {
+    "message": "チュートリアル",
+    "description": "The label for category 'Tutorials' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How-to Guides": {
+    "message": "操作ガイド",
+    "description": "The label for category 'How-to Guides' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Explanations": {
+    "message": "仕組みを知る",
+    "description": "The label for category 'Explanations' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference": {
+    "message": "リファレンス",
+    "description": "The label for category 'Reference' in sidebar 'docsSidebar'"
+  }
+}

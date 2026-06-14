@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Nächste",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Tutorials": {
+    "message": "Tutorials",
+    "description": "The label for category 'Tutorials' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.How-to Guides": {
+    "message": "Anleitungen",
+    "description": "The label for category 'How-to Guides' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Explanations": {
+    "message": "Hintergründe",
+    "description": "The label for category 'Explanations' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Reference": {
+    "message": "Referenz",
+    "description": "The label for category 'Reference' in sidebar 'docsSidebar'"
+  }
+}

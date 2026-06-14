@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "AmiLab",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "AmiLabロゴ",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorials": {
+    "message": "チュートリアル",
+    "description": "Navbar item with label Tutorials"
+  },
+  "item.label.How-to Guides": {
+    "message": "操作ガイド",
+    "description": "Navbar item with label How-to Guides"
+  },
+  "item.label.Explanations": {
+    "message": "仕組みを知る",
+    "description": "Navbar item with label Explanations"
+  },
+  "item.label.Reference": {
+    "message": "リファレンス",
+    "description": "Navbar item with label Reference"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Open app": {
+    "message": "アプリを開く",
+    "description": "Navbar item with label Open app"
+  }
+}
