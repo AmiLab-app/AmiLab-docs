@@ -37,7 +37,7 @@ Möchtest du den Ausschnitt später ändern, schließe den Dialog, richte die An
 
 ## Als Ersteller genannt werden
 
-Die Freigabe zeigt „von *deinem Namen*“ und verlinkt dein öffentliches Profil, sobald dein Profil einen Namen enthält. Zeigt der Dialog einen Hinweis zum Vervollständigen des Profils, füge dort Anzeigenamen und Bild hinzu. Du erreichst dieselben Einstellungen im Menü über **Profil bearbeiten**.
+Die Freigabe zeigt „von *deinem Namen*“ und verlinkt dein öffentliches Profil, sobald dein Profil einen Namen enthält. Zeigt der Dialog einen Hinweis zum Vervollständigen des Profils, füge dort Anzeigenamen und Bild hinzu. Du erreichst dieselben Einstellungen auch auf deiner öffentlichen Profilseite.
 
 ## Was andere sehen
 

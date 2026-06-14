@@ -18,7 +18,7 @@ You will learn how to:
 
 **Time to complete:** about 15 minutes.
 
-**Before you start**, you need a Google account and a modern desktop browser. A wider screen makes the split pattern-and-preview layout easier to follow.
+**Before you start**, you need a modern desktop browser and either a Google account or an email address to sign in with. A wider screen makes the split pattern-and-preview layout easier to follow.
 
 ---
 
@@ -28,8 +28,8 @@ Saving and naming patterns requires an account, so signing in is the first thing
 
 1. Open AmiLab in your browser.
 2. Click the menu button (**☰**) in the top-right corner of the header.
-3. In the **Account** section of the menu, click **Sign in with Google**.
-4. Complete the Google sign-in popup.
+3. In the **Account** section of the menu, click **Sign in**.
+4. In the dialog, choose **Continue with Google** or enter your email address and click **Email me a sign-in link**.
 
 After you sign in, your name appears in the **Account** section and the menu closes when you click outside it.
 

@@ -18,7 +18,7 @@ Du lernst:
 
 **Dauer:** ungefähr 15 Minuten.
 
-**Voraussetzungen:** ein Google-Konto und ein moderner Desktop-Browser. Auf einem breiten Bildschirm lässt sich die geteilte Ansicht aus Anleitung und Vorschau leichter verfolgen.
+**Voraussetzungen:** ein moderner Desktop-Browser sowie ein Google-Konto oder eine E-Mail-Adresse zum Anmelden. Auf einem breiten Bildschirm lässt sich die geteilte Ansicht aus Anleitung und Vorschau leichter verfolgen.
 
 ---
 
@@ -28,8 +28,8 @@ Zum Benennen und dauerhaften Speichern von Anleitungen benötigst du ein Konto. 
 
 1. Öffne AmiLab im Browser.
 2. Klicke rechts oben auf die Menüschaltfläche (**☰**).
-3. Klicke im Bereich **Konto** auf **Mit Google anmelden**.
-4. Schließe die Anmeldung im Google-Fenster ab.
+3. Klicke im Bereich **Konto** auf **Anmelden**.
+4. Wähle im Dialog **Mit Google fortfahren** oder gib deine E-Mail-Adresse ein und klicke auf **Anmeldelink per E-Mail senden**.
 
 Nach der Anmeldung erscheint dein Name im Bereich **Konto**. Das Menü schließt sich, wenn du daneben klickst.
 

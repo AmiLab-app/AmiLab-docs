@@ -18,7 +18,7 @@ Je leert hoe je:
 
 **Tijd om te voltooien:** ongeveer 15 minuten.
 
-**Voordat je begint** heb je een Google-account en een moderne desktopbrowser nodig. Een breder scherm maakt de gesplitste indeling met patroon en preview makkelijker te volgen.
+**Voordat je begint** heb je een moderne desktopbrowser nodig en ofwel een Google-account ofwel een e-mailadres om mee in te loggen. Een breder scherm maakt de gesplitste indeling met patroon en preview makkelijker te volgen.
 
 ---
 
@@ -28,8 +28,8 @@ Patronen opslaan en benoemen vereist een account, dus inloggen is het eerste wat
 
 1. Open AmiLab in je browser.
 2. Klik op de menuknop (**☰**) rechtsboven in de koptekst.
-3. Klik in het gedeelte **Account** van het menu op **Inloggen met Google**.
-4. Voltooi de Google-inlogpop-up.
+3. Klik in het gedeelte **Account** van het menu op **Inloggen**.
+4. Kies in het venster **Doorgaan met Google** of voer je e-mailadres in en klik op **Stuur mij een inloglink**.
 
 Na het inloggen verschijnt je naam in het gedeelte **Account**, en het menu sluit zodra je ernaast klikt.
 

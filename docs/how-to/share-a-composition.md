@@ -37,7 +37,7 @@ If you want to re-frame after the dialog is open, close it, adjust the canvas, r
 
 ## Get credited as the maker
 
-The viewer shows "by *your name*" and links to your public profile — but only once your profile has a name. If the share dialog shows a reminder to **Complete profile**, click it to add your display name and picture (also available from the menu under **Edit profile**).
+The viewer shows "by *your name*" and links to your public profile — but only once your profile has a name. If the share dialog shows a reminder to **Complete profile**, click it to add your display name and picture (also available from your public profile page).
 
 ## What people see
 

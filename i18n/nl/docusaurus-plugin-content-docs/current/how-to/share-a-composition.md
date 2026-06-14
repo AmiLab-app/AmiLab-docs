@@ -37,7 +37,7 @@ Wil je opnieuw uitsnijden nadat het venster open is, sluit het dan, stel het can
 
 ## Als maker vermeld worden
 
-De weergave toont "door *jouw naam*" en linkt naar je openbare profiel — maar alleen zodra je profiel een naam heeft. Toont het deelvenster een herinnering om je **Profiel te voltooien**, klik er dan op om je weergavenaam en foto toe te voegen (ook bereikbaar via het menu onder **Profiel bewerken**).
+De weergave toont "door *jouw naam*" en linkt naar je openbare profiel — maar alleen zodra je profiel een naam heeft. Toont het deelvenster een herinnering om je **Profiel te voltooien**, klik er dan op om je weergavenaam en foto toe te voegen (ook bereikbaar via je openbare profielpagina).
 
 ## Wat mensen te zien krijgen
 
