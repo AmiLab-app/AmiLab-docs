@@ -12,6 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
+    "docs:sync-from-app": "bash scripts/doc-sync-from-app/run.sh",
     "typecheck": "tsc"
   },
   "dependencies": {

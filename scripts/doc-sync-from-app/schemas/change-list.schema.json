@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "summary": {
+      "type": "string"
+    },
+    "app_range": {
+      "type": "string"
+    },
+    "docs_history_range": {
+      "type": "string"
+    },
+    "documentation_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          },
+          "source_commits": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "app_files": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "user_facing_change": {
+            "type": "string"
+          },
+          "docs_action": {
+            "type": "string"
+          },
+          "target_docs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "ui_terms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "locale_notes": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "priority",
+          "source_commits",
+          "app_files",
+          "user_facing_change",
+          "docs_action",
+          "target_docs",
+          "ui_terms",
+          "locale_notes"
+        ]
+      }
+    },
+    "ignored_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_commits": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": ["source_commits", "reason"]
+      }
+    }
+  },
+  "required": [
+    "summary",
+    "app_range",
+    "docs_history_range",
+    "documentation_changes",
+    "ignored_changes"
+  ]
+}

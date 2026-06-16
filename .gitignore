@@ -7,6 +7,7 @@
 # Generated files
 .docusaurus
 .cache-loader
+.doc-sync-runs
 
 # Misc
 .DS_Store
