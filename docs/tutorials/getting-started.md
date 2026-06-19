@@ -10,7 +10,7 @@ This tutorial walks you through your first design in AmiLab, from creating an ac
 
 You will learn how to:
 
-- Sign in so your work is saved to your account
+- Sign in so your work can be saved to your account
 - Create a pattern and group it in a project
 - Set your gauge and build a color palette
 - Materialize a hexagonal sphere
@@ -24,7 +24,7 @@ You will learn how to:
 
 ## Step 1: Sign in
 
-Saving and naming patterns requires an account, so signing in is the first thing you do.
+Saving and naming patterns requires an account, so signing in is the first thing you do. Free accounts can save up to 1 project and 6 patterns.
 
 1. Open AmiLab in your browser.
 2. Click the menu button (**☰**) in the top-right corner of the header.
@@ -35,7 +35,7 @@ After you sign in, your name appears in the **Account** section and the menu clo
 
 :::note[Why sign in first?]
 
-Without an account you can still explore the editor, but the **New** button stays disabled and your changes are not stored. Signing in unlocks saving, projects, and your personal files.
+Without an account you can still explore the editor, but the **New** button stays disabled and your changes are not stored. Signing in unlocks saving, projects, and your personal files. If you reach the free-account limit, AmiLab shows **Free limit reached** before it creates more saved work.
 
 :::
 
@@ -59,6 +59,12 @@ Your named, empty pattern opens in the editor.
 :::note[Your work saves automatically]
 
 The moment you create the pattern, AmiLab saves it to your account — and it keeps saving every change from here on. Watch the save indicator in the toolbar: it reads **Unsaved** while you edit and **Saved** once your changes are stored. You can close the tab at any time and reopen the pattern later from the **Files** dialog.
+
+:::
+
+:::tip[Saved-work limits]
+
+Free accounts can save 1 project and 6 patterns. To create more saved work, use **View pricing** in the **Free limit reached** dialog. See [Manage saved-work limits](../how-to/manage-saved-work-limits.md) for the full behavior.
 
 :::
 

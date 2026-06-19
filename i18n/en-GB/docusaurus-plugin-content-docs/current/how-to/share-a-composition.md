@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 title: Share a composition and its preview
 description: Publish a composition as a public link, set the preview image, and understand what people see.
 ---
@@ -45,12 +45,22 @@ Opening your link shows a viewer with:
 
 - An **interactive, realistic 3D view** of the composition they can rotate and zoom.
 - The composition's **name** and **your maker attribution**.
+- **Remix this**, which copies the composition and its referenced patterns into the visitor's own account.
 - A collapsible **pattern panel** with the full written instructions for every distinct part — which they can copy. Mirrored parts appear with their instructions reversed.
 
 No sign-in is needed to view a shared composition.
+
+## Let someone remix a composition
+
+When a visitor clicks **Remix this**, AmiLab creates their own editable copy of the public composition. The copied composition opens in a new project in their account, together with the patterns it uses.
+
+If the visitor is not signed in, AmiLab starts sign-in first. After sign-in, it shows **Setting up your copy…** while it completes the remix. If the remix cannot be completed, **Back to AmiLab** returns them to the app.
+
+Remixing creates saved work, so the visitor's account limits apply. If the copy would exceed their free-account limit, AmiLab shows **Free limit reached** with **View pricing**. See [Manage saved-work limits](./manage-saved-work-limits.md).
 
 ## Related
 
 - [Combine parts into a composition](./combine-pieces-into-a-composition.md)
 - [Copy your pattern as written instructions](./copy-pattern-as-text.md)
+- [Manage saved-work limits](./manage-saved-work-limits.md)
 - [Glossary](../reference/glossary.md) — *composition*

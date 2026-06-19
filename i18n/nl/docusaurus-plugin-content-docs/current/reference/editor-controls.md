@@ -38,6 +38,7 @@ Onderaan de 3D-weergave, aan de rechterkant.
 | Bediening | Actie |
 |---|---|
 | **Realistisch** / **Schematisch** | Wissel tussen een garenweergave en een stekendiagram. Dit verandert alleen de 3D-weergave, niet het patroon. |
+| **Automatisch scherpstellen aan** / **Automatisch scherpstellen uit** | Wissel of de previewcamera naar de actieve steek beweegt. Wanneer dit aan staat, beweegt de camera naar de actieve steek wanneer je steken selecteert of toevoegt. Wanneer dit uit staat, blijft de camera stil terwijl selecteren en bewerken doorgaan. |
 | Vergroten / verkleinen | Laat de 3D-weergave de hele werkruimte vullen, of herstel de eerdere indeling. |
 
 ## Een haakwerk beginnen

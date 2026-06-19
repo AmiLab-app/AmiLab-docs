@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 title: Eine Montage und ihre Vorschau teilen
 description: Veröffentliche eine Montage über einen Link, lege das Vorschaubild fest und prüfe, was andere sehen.
 ---
@@ -45,12 +45,22 @@ Der Link öffnet eine Ansicht mit:
 
 - einer **interaktiven, realistischen 3D-Darstellung**, die sich drehen und zoomen lässt,
 - dem **Namen der Montage** und deinem **Erstellernachweis**,
+- **Remixen**, womit die Montage und die verwendeten Anleitungen in das Konto der betrachtenden Person kopiert werden,
 - einem aufklappbaren **Anleitungsbereich** mit den vollständigen Textanleitungen aller unterschiedlichen Teile. Die Texte lassen sich kopieren; gespiegelte Teile erscheinen mit umgekehrter Anleitung.
 
 Zum Anzeigen einer geteilten Montage ist keine Anmeldung nötig.
+
+## Eine Montage remixen lassen
+
+Wenn jemand auf **Remixen** klickt, erstellt AmiLab eine eigene bearbeitbare Kopie der öffentlichen Montage. Die kopierte Montage wird in einem neuen Projekt im Konto dieser Person geöffnet, zusammen mit den verwendeten Anleitungen.
+
+Ist die Person nicht angemeldet, startet AmiLab zuerst die Anmeldung. Danach zeigt AmiLab **Deine Kopie wird erstellt…**, während der Remix abgeschlossen wird. Falls der Remix nicht abgeschlossen werden kann, führt **Zurück zu AmiLab** zurück zur App.
+
+Beim Remixen entsteht gespeicherte Arbeit, daher gelten die Limits des Kontos. Würde die Kopie das Gratis-Limit überschreiten, zeigt AmiLab **Limit des Gratis-Kontos erreicht** mit **Tarife ansehen**. Siehe [Limits für gespeicherte Arbeit verwalten](./manage-saved-work-limits.md).
 
 ## Verwandte Themen
 
 - [Teile zu einer Montage zusammensetzen](./combine-pieces-into-a-composition.md)
 - [Häkelanleitung als Text kopieren](./copy-pattern-as-text.md)
+- [Limits für gespeicherte Arbeit verwalten](./manage-saved-work-limits.md)
 - [Glossar](../reference/glossary.md) – *Montage*

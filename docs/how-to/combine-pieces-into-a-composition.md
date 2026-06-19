@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 title: Combine pieces into a composition
 description: Assemble several finished patterns into one character or object, then position and orient each piece.
 ---

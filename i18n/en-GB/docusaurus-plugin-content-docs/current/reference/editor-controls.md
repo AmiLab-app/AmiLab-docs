@@ -38,6 +38,7 @@ At the bottom of the 3D preview, on the right.
 | Control | Action |
 |---|---|
 | **Realistic** / **Schematic** | Toggle the preview between the yarn-like rendering and the stitch diagram. Affects only the preview, not the pattern. |
+| **Enable camera auto-focus** / **Disable camera auto-focus** | Toggle whether the preview camera moves to the active stitch. When enabled, selecting or adding stitches moves the camera to the active stitch. When disabled, the camera stays still while selection and edits continue. |
 | Expand / collapse | Enlarges the preview to fill the workspace, or restores it. |
 
 ## Starting a piece

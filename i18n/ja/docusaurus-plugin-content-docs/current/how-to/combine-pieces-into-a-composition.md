@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 title: パーツを組み立てる
 description: 複数の完成した編み図を1つのキャラクターや物として配置し、位置と向きを調整します。
 ---

@@ -38,6 +38,7 @@ Am unteren Rand der 3D-Vorschau auf der rechten Seite.
 | Bedienelement | Aktion |
 |---|---|
 | **Realistisch** / **Schematisch** | Wechselt zwischen einer garnähnlichen Darstellung und dem Maschendiagramm. Nur die Vorschau ändert sich, nicht die Anleitung. |
+| **Automatischen Kamerafokus einschalten** / **Automatischen Kamerafokus ausschalten** | Legt fest, ob sich die Vorschaukamera zur aktiven Masche bewegt. Wenn die Funktion eingeschaltet ist, bewegt sich die Kamera beim Auswählen oder Hinzufügen von Maschen zur aktiven Masche. Wenn sie ausgeschaltet ist, bleibt die Kamera stehen, während Auswahl und Bearbeitung weiter funktionieren. |
 | Vergrößern / verkleinern | Vergrößert die Vorschau auf die ganze Arbeitsfläche oder stellt die geteilte Ansicht wieder her. |
 
 ## Ein Häkelstück beginnen

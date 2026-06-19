@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 title: Een samenstelling delen en de preview instellen
 description: Publiceer een samenstelling als openbare link, stel de previewafbeelding in en begrijp wat mensen te zien krijgen.
 ---
@@ -45,12 +45,22 @@ Het openen van je link toont een weergave met:
 
 - Een **interactieve, realistische 3D-weergave** van de samenstelling die ze kunnen draaien en zoomen.
 - De **naam** van de samenstelling en **jouw makervermelding**.
+- **Hergebruik dit**, waarmee de samenstelling en de bijbehorende patronen naar het account van de bezoeker worden gekopieerd.
 - Een inklapbaar **patroonvenster** met de volledige geschreven instructies voor elk afzonderlijk onderdeel — die ze kunnen kopiëren. Gespiegelde onderdelen verschijnen met omgedraaide instructies.
 
 Er is geen inlog nodig om een gedeelde samenstelling te bekijken.
+
+## Iemand een samenstelling laten hergebruiken
+
+Wanneer een bezoeker op **Hergebruik dit** klikt, maakt AmiLab een eigen bewerkbare kopie van de openbare samenstelling. De gekopieerde samenstelling wordt geopend in een nieuw project in het account van de bezoeker, samen met de patronen die ze gebruikt.
+
+Als de bezoeker niet is ingelogd, start AmiLab eerst het inloggen. Na het inloggen toont AmiLab **Je kopie wordt klaargezet…** terwijl het hergebruik wordt afgerond. Kan de kopie niet worden gemaakt, dan brengt **Terug naar AmiLab** de bezoeker terug naar de app.
+
+Hergebruiken maakt opgeslagen werk, dus de accountlimieten van de bezoeker gelden. Zou de kopie de gratis limiet overschrijden, dan toont AmiLab **Limiet van gratis account bereikt** met **Prijzen bekijken**. Zie [Limieten voor opgeslagen werk beheren](./manage-saved-work-limits.md).
 
 ## Zie ook
 
 - [Onderdelen samenvoegen tot een samenstelling](./combine-pieces-into-a-composition.md)
 - [Je patroon als tekst kopiëren](./copy-pattern-as-text.md)
+- [Limieten voor opgeslagen werk beheren](./manage-saved-work-limits.md)
 - [Begrippenlijst](../reference/glossary.md) — *samenstelling*

@@ -24,7 +24,7 @@ Du lernst:
 
 ## Schritt 1: Anmelden
 
-Zum Benennen und dauerhaften Speichern von Anleitungen benötigst du ein Konto. Melde dich deshalb zuerst an.
+Zum Benennen und dauerhaften Speichern von Anleitungen benötigst du ein Konto. Melde dich deshalb zuerst an. Gratis-Konten können bis zu 1 Projekt und 6 Anleitungen speichern.
 
 1. Öffne AmiLab im Browser.
 2. Klicke rechts oben auf die Menüschaltfläche (**☰**).
@@ -35,7 +35,7 @@ Nach der Anmeldung erscheint dein Name im Bereich **Konto**. Das Menü schließt
 
 :::note[Warum zuerst anmelden?]
 
-Ohne Konto kannst du den Editor ausprobieren, aber **Neu** bleibt deaktiviert und Änderungen werden nicht dauerhaft gespeichert. Die Anmeldung schaltet Speichern, Projekte und persönliche Dateien frei.
+Ohne Konto kannst du den Editor ausprobieren, aber **Neu** bleibt deaktiviert und Änderungen werden nicht dauerhaft gespeichert. Die Anmeldung schaltet Speichern, Projekte und persönliche Dateien frei. Wenn du das Limit des Gratis-Kontos erreichst, zeigt AmiLab **Limit des Gratis-Kontos erreicht**, bevor weitere gespeicherte Arbeit erstellt wird.
 
 :::
 
@@ -59,6 +59,12 @@ Die benannte, noch leere Anleitung öffnet sich im Editor.
 :::note[Automatisches Speichern]
 
 AmiLab speichert die Anleitung direkt beim Erstellen in deinem Konto und danach jede weitere Änderung. Der Speicherstatus zeigt während der Bearbeitung **Ungesichert** und nach der Übertragung **Gespeichert**. Du kannst den Tab schließen und die Anleitung später über **Dateien** erneut öffnen.
+
+:::
+
+:::tip[Limits für gespeicherte Arbeit]
+
+Gratis-Konten können 1 Projekt und 6 Anleitungen speichern. Um mehr gespeicherte Arbeit zu erstellen, nutze **Tarife ansehen** im Dialog **Limit des Gratis-Kontos erreicht**. Siehe [Limits für gespeicherte Arbeit verwalten](../how-to/manage-saved-work-limits.md) für das vollständige Verhalten.
 
 :::
 

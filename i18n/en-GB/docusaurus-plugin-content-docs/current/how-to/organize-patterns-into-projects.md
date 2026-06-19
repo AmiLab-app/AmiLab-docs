@@ -8,7 +8,7 @@ description: Open, move, rename, duplicate, and group your saved patterns using 
 
 A **project** groups related patterns and gives them a shared [tension](../explanations/gauge-and-dimensions.md) and [colour palette](../explanations/the-color-model.md). The **Files** dialog is where you manage all your saved patterns and projects.
 
-You need to be signed in; the dialog manages patterns stored on your account.
+You need to be signed in; the dialog manages patterns stored on your account. Free accounts can save up to 1 project and 6 patterns.
 
 ## Open the Files dialog
 
@@ -22,7 +22,7 @@ Each pattern row has these actions:
 |---|---|
 | **Open** | Open the pattern in the editor. |
 | Rename (pencil) | Give the pattern a new name. |
-| Duplicate (copy) | Make a copy you can edit independently. |
+| Duplicate (copy) | Make a copy you can edit independently. The copy counts as another saved pattern. |
 | **Move** | Move the pattern to another project. |
 | Delete (trash) | Remove the pattern. Asks for confirmation. |
 
@@ -33,6 +33,8 @@ Each pattern row has these actions:
 - **Edit a project** — click the pencil on the project's header to change its name, tension, or palette. The tension and palette apply to every pattern in the project.
 - **Delete a project** — click the trash on the project's header.
 
+If creating a project, pattern, or duplicate would exceed your free-account limit, AmiLab shows **Free limit reached**. Click **View pricing** to choose a **31 days** or **12 months** access window, or delete saved work you no longer need.
+
 ## Patterns with no project
 
 Patterns created without a project appear under **No project**. They behave the same way, but carry their own tension and colour instead of sharing a project's. Move one into a project at any time with **Move**.
@@ -41,4 +43,5 @@ Patterns created without a project appear under **No project**. They behave the 
 
 - [Tension and dimensions](../explanations/gauge-and-dimensions.md) — the setting a project shares
 - [The colour model](../explanations/the-color-model.md) — how a project's palette is used
+- [Manage saved-work limits](./manage-saved-work-limits.md) — what to do when you reach the free limit
 - [Getting Started](../tutorials/getting-started.md) — creating your first project

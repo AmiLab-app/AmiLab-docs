@@ -24,7 +24,7 @@ Je leert hoe je:
 
 ## Stap 1: Inloggen
 
-Patronen opslaan en benoemen vereist een account, dus inloggen is het eerste wat je doet.
+Patronen opslaan en benoemen vereist een account, dus inloggen is het eerste wat je doet. Gratis accounts kunnen maximaal 1 project en 6 patronen opslaan.
 
 1. Open AmiLab in je browser.
 2. Klik op de menuknop (**☰**) rechtsboven in de koptekst.
@@ -35,7 +35,7 @@ Na het inloggen verschijnt je naam in het gedeelte **Account**, en het menu slui
 
 :::note[Waarom eerst inloggen?]
 
-Zonder account kun je de editor wel verkennen, maar de knop **Nieuw** blijft uitgeschakeld en je wijzigingen worden niet bewaard. Inloggen ontgrendelt opslaan, projecten en je persoonlijke bestanden.
+Zonder account kun je de editor wel verkennen, maar de knop **Nieuw** blijft uitgeschakeld en je wijzigingen worden niet bewaard. Inloggen ontgrendelt opslaan, projecten en je persoonlijke bestanden. Bereik je de limiet van een gratis account, dan toont AmiLab **Limiet van gratis account bereikt** voordat er meer opgeslagen werk wordt gemaakt.
 
 :::
 
@@ -59,6 +59,12 @@ Je benoemde, lege patroon opent in de editor.
 :::note[Je werk wordt automatisch opgeslagen]
 
 Zodra je het patroon maakt, slaat AmiLab het bij je account op — en dat blijft het doen bij elke wijziging hierna. Houd de opslagindicator in de werkbalk in de gaten: hij toont **Onopgeslagen** tijdens het bewerken en **Opgeslagen** zodra je wijzigingen bewaard zijn. Je kunt het tabblad op elk moment sluiten en het patroon later openen via het venster **Bestanden**.
+
+:::
+
+:::tip[Limieten voor opgeslagen werk]
+
+Gratis accounts kunnen 1 project en 6 patronen opslaan. Wil je meer opgeslagen werk maken, gebruik dan **Prijzen bekijken** in het venster **Limiet van gratis account bereikt**. Zie [Limieten voor opgeslagen werk beheren](../how-to/manage-saved-work-limits.md) voor het volledige gedrag.
 
 :::
 

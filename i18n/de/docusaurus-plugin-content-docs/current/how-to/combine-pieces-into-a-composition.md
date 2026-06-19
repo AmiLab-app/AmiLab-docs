@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 title: Teile zu einer Montage zusammensetzen
 description: Setze mehrere fertige Anleitungen zu einer Figur oder einem Objekt zusammen und positioniere jedes Teil.
 ---

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 title: Onderdelen samenvoegen tot een samenstelling
 description: Voeg meerdere afgewerkte patronen samen tot één figuur of object en plaats en draai elk onderdeel.
 ---
