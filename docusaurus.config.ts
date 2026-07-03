@@ -25,8 +25,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://AmiLab-app.github.io',
-  baseUrl: '/AmiLab-docs/',
+  url: 'https://docs.amilab.app',
+  baseUrl: '/',
 
   organizationName: 'AmiLab-app',
   projectName: 'AmiLab-docs',
